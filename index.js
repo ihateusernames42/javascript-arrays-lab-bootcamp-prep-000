@@ -2,6 +2,7 @@ const app = "I don't do much."
 function destructivelyAppendKitten (a){
   kittens.push(a)
 }
+<<<<<<< HEAD
 function destructivelyPrependKitten (a){
   kittens.unshift(a)
 }
@@ -23,3 +24,9 @@ function removeLastKitten () {
 function removeFirstKitten () {
   return kittens.slice(1)
 }
+=======
+destructivelyPrependKitten
+destructivelyRemoveLastKitten
+destructivelyRemoveFirstKitten
+appendKitten
+>>>>>>> ade1b5d80b30b19cd9e32b66e77976feb9784c7d
